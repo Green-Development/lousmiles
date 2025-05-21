@@ -1,34 +1,35 @@
 // | -------------------------------------------------------------
-// | Color
+// | Color (Rose Gold & Pink Theme)
 // | -------------------------------------------------------------
 
 $colors: (
   primary: (
-    100: hsl(276, 100%, 79%),
-    200: hsl(276, 79%, 69%),
-    300: hsl(276, 53%, 49%),
-    400: hsl(276, 64%, 48%),
-    500: hsl(276, 96%, 20%),
+    100: hsl(330, 100%, 90%), // soft blush
+    200: hsl(330, 85%, 80%),  // light pink
+    300: hsl(330, 70%, 65%),  // rose pink
+    400: hsl(330, 65%, 50%),  // vibrant pink
+    500: hsl(330, 90%, 35%),  // deep pink
   ),
   secondary: (
-    100: hsl(173, 81%, 68%),
-    200: hsl(173, 80%, 63%),
-    300: hsl(173, 72%, 57%),
-    400: hsl(173, 75%, 47%),
-    500: hsl(173, 90%, 30%),
+    100: hsl(45, 70%, 88%),   // pale champagne gold
+    200: hsl(45, 70%, 75%),   // soft gold
+    300: hsl(45, 65%, 60%),   // warm gold
+    400: hsl(45, 70%, 45%),   // true gold
+    500: hsl(34, 58%, 58%),   // deep rich gold
   ),
+
   neutral: (
-    100: hsl(0 0% 100%),
-    200: hsl(200 23% 97%),
-    300: hsl(200 12% 95%),
-    400: hsl(205 12% 88%),
-    500: hsl(209 13% 83%),
-    600: hsl(208 6% 55%),
-    700: hsl(210 8% 31%),
-    800: hsl(212 9% 22%),
-    900: hsl(210 10% 14%),
+    100: hsl(0 0% 100%), // very light cream
+    200: hsl(330, 40%, 96%),  // pinkish white
+    300: hsl(20, 40%, 94%),   // rose beige
+    400: hsl(20, 30%, 86%),   // subtle rose tan
+    500: hsl(20, 20%, 75%),   // warm neutral
+    600: hsl(20, 15%, 55%),   // soft taupe
+    700: hsl(20, 20%, 35%),   // muted brown-pink
+    800: hsl(15, 20%, 25%),   // rich brownish rose
+    900: hsl(15, 15%, 18%),   // dark rosewood
   ),
   dark: (
-    100: hsl(240, 4%, 9%),
+    100: hsl(330, 90%, 35%),  // very dark pink background
   ),
 );

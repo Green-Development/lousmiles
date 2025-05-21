@@ -1,13 +1,24 @@
 ---
 import DefaultLayout from './DefaultLayout.astro'
+import logo from '../assets/img/logo.png'
+import { Image } from 'astro:assets'
 
 const { frontmatter } = Astro.props
 ---
 
 <DefaultLayout title={frontmatter.title}>
-  <div class="container">
+  <div class="container ">
+    <a href="/" class="flex items-center gap-2 !no-underline mt-6 mx-10">
+      <Image src={logo} alt="Your Logo" width="47" height="37" />
+      <span class="font-bold">Zurück zur Startseite</span>
+    </a>
     <div class="space-content my-12">
       <slot />
     </div>
+    <a href="/" class="flex items-center gap-2 !no-underline mb-6 mx-10">
+      <Image src={logo} alt="Your Logo" width="47" height="37" />
+      <span class="font-bold">Zurück zur Startseite</span>
+    </a>
   </div>
+
 </DefaultLayout>
